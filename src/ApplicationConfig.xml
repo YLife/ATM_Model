@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<bean id = "bankBiz" impl = "bizImpl.BankBizImpl"/>
+	<bean id = "cardInfoDao" impl = "impl.dao.CardInfoImpl"/>
+	<bean id = "tradeInfoDao" impl = "impl.dao.TradeInfoImpl"/>
+</config>
